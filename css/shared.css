@@ -131,15 +131,16 @@ section {
     max-height: 340px;
     margin: 0% auto;
     content: " ";
-    /* top: 0;
-    left: 0; */
-    /* position: absolute; */ /* to the top edge of the screen */
-   width: 100%;
-   position: fixed;
-   z-index: 100;
-   /* background=color: rgba(255, 255, 255, 0.5); */
+    top: 0;
+    left: 0; 
+    position: absolute;  /* to the top edge of the screen */
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background:color rgba(255, 255, 255, 0.5);
 }
-   /* Home section styles */
+   
+/* Home section styles */
 #home {
     background: url(../images/IMG_2583.JPG) no-repeat 50% 50%;
     background-attachment: fixed;
