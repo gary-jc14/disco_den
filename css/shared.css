@@ -197,7 +197,7 @@ section {
 }
 
 #contact {
-    background-color: F5F3F3F;
+    background-color: #F5F3F3;
 }
 
 .reservation {
@@ -271,7 +271,7 @@ section {
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input [type="text"]:hover {
+.reservation input[type="text"]:hover {
     box-shadow: 0 0 10px rgba(100, 65, 0, 0.8);
 }
 
@@ -309,7 +309,7 @@ section {
     padding: 7px 0px;
     width: 25%;
     font-size: 18px;
-    transition: border-color, 0.3s color, 0.3s backgroun-color 0.3s;
+    transition: border-color 0.3s, color 0.3s, backgroun-color 0.3s;
     border-radius: 7px;
     background-color: #797A7B;
     box-shadow: 1px 4px 4px 0 rgba(0, 0, 0, 0.5);
