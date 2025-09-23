@@ -16,11 +16,11 @@ body {
     background-color: #fff;
 }
 
-footer,
+footer,  /* Footer and Nav as block elements */
 nav {
     display: block;
 }
-
+  /* Heading styles */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
@@ -35,7 +35,7 @@ h1 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
-h1::after { /** This is the underlin **/
+h1::after { /** This is the underline  **/
     display: block;
     content: " ";
     height: 2px;
@@ -81,7 +81,7 @@ section {
     padding-top: 50px;
     margin-top: 50px;
 }
-
+   /* Layout containers*/
 .navbar {
     height: 105px;
     max-height: 340px;
@@ -153,7 +153,7 @@ section {
     padding-bottom: 500px; /* This is spacer after main title logo */
     color: #fff;
 }
-
+   /* Main site title */
 .head-main {
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
     font-variant:small-caps;
@@ -184,7 +184,7 @@ section {
     padding: 5px;
 }
 
-/* Contact Styles */
+/* Contact form Styles */
 .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -237,7 +237,7 @@ section {
     width: 190px;
     margin: 0 auto;
 }
-
+   /* Form container */
 .reservation form {
         font-size: 15px;
         outline: none;
@@ -252,7 +252,7 @@ section {
         box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
         font-family: 'Raleway', sans-serif;
 }
-
+   /* Text input fields */
 .reservation input[type="text"] {
     font-size: 15px;
     outline: none;
@@ -278,7 +278,7 @@ section {
 .form-spacer {
     padding: 30px 39px;
 }
-
+   /* Terms text */
 .terms {
     margin: 23px 41px 0 0;
     font-size: 14px;
@@ -296,7 +296,7 @@ section {
     color: orange;
     text-decoration: underline;
 }
-
+   /* Submit button */
 .submit input[type="submit"] {
     color: rgb(225, 225, 225);
     cursor: pointer;
@@ -320,7 +320,7 @@ section {
     background-color: #8D8E8F;
     box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
 }
-
+    /* Footer styles */
 #footer {
     background-color: rgba(100, 65, 0, 0.3);
     color: #000;
